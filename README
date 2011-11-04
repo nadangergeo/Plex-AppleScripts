@@ -1,2 +1,17 @@
 You need to download and install the scripting addon XMLTools2 as the scripts depend on it.
 http://www.latenightsw.com/freeware/XMLTools2/
+
+Author: Nadan Gergeo
+Email: nadan.gergeo@gmail.com
+
+These are applescripts for Plex.
+
+How to use:
+1. First you need to download and install the scripting addon XMLTools2 as the scripts depend on it.
+http://www.latenightsw.com/freeware/XMLTools2/
+
+2. Open Plex media manager and check out in which place the tv show section is. If it's the second section, 
+then the section number is 2 and you don't have to change anything. If it's another number, you need to change 
+the 3rd row in "Play TV Show.scpt".
+ 
+Done!
