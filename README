@@ -24,14 +24,12 @@ How to setup the scripts:
 1. First you need to download and install the scripting addon XMLTools2 as the scripts depend on it.
 http://www.latenightsw.com/freeware/XMLTools2/
 
-2. Go to http://IPADRESS:32400/library/sections, where IPADRESS is the (local) ip adress to the computer running 
-plex media server (pms). If you are running pms on the same computer as you are running the plex client, just type 
-"localhost". When you've accessed the xml-page, check out what key-value the tv show section has. If the key is 2,
-you don't have to change anything. If it's another value, you need to change the 5th row in "Play TV Show.scpt".
+2. Go to http://IPADRESS:32400/library/sections, where IPADRESS is the (local) ip adress to the computer running plex media server (pms). If you are running pms on the same computer as you are running the plex client, just type 
+"localhost". When you've accessed the xml-page, check out what key-value the tv show section has. If the key is 2, you don't have to change anything. If it's another value, you need to change the 5th row in "Play TV Show.scpt".
 
-3. If you are running the server and the client on the same computer, you can skip this step. Otherwise, edit the hosts
-on row 4 and 5 (replace "localhost" with the right ip adress). pms is server on which you have the tv-shows. 
-plexClient is the client where you want it to play.
+3. If you are running the server and the client on the same computer, you can skip this step. Otherwise, edit the hosts on row 4 and 5 (replace "localhost" with the right ip adress).
+- pms is server on which you have the tv-shows.
+- plexClient is the client where you want it to play.
 
 4. add the files to the folder ~/Library/Speech/Speakable Items/
 
